@@ -1,0 +1,23 @@
+name: Render test
+on:
+  push:
+    branches: [render-test]
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - run: python tools/build_site.py --people tests/fixtures/people
+      - run: quarto render
+      - name: Report output
+        run: |
+          ls _site _site/members _site/modules
+          grep -c "progress-grid" _site/progress.html
+          grep -o "ana--arrays-week1.html" _site/modules/module-2.html | head -1
+          grep -c "include secret" _site/members/ana--arrays-week1.html || true
