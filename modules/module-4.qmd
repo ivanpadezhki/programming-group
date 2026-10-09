@@ -1,0 +1,39 @@
+---
+title: "Module 4: Visualization"
+subtitle: "3 weeks"
+---
+
+**Handbook:** Ch. 4
+
+**Shared checkpoint:** Recreate one agreed figure: daily mean with min-max band, plus a heat map
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 4.1 | Line and scatter plots with labelled axes | 4.1-4.2 |
+| 4.2 | Error bars or an uncertainty band | 4.3 |
+| 4.3 | Histogram and density plot | 4.4-4.5 |
+| 4.4 | Heat map or contour of a matrix, with colorbar | 4.4, 4.7 |
+| 4.5 | Legend, annotation and tick control | 4.6, 4.9-4.10 |
+| 4.6 | Multi-panel figure | 4.8 |
+| 4.7 | Save a figure to a file | n/a |
+
+## Resources
+
+Follows handbook chapter 4 (Matplotlib, with Seaborn in 4.14). R's ggplot2 is built on a different idea, a grammar of layers and scales, so the same figure is assembled differently than in Matplotlib. MATLAB's plotting commands are closer to Matplotlib's.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Lines, scatter, error bars | [Handbook 4.1: Line plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html); [4.2: Scatter plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.02-simple-scatter-plots.html); [4.3: Errorbars](https://jakevdp.github.io/PythonDataScienceHandbook/04.03-errorbars.html); [Carpentries ep. 3: Visualizing tabular data](https://swcarpentry.github.io/python-novice-inflammation/03-matplotlib.html) | [R4DS ch. 1: Data visualization](https://r4ds.hadley.nz/data-visualize.html); [ggplot2 book ch. 3: Individual geoms](https://ggplot2-book.org/individual-geoms.html) | MATLAB Onramp: Plotting Data module; [Carpentries MATLAB, ep. 3: Plotting data](https://swcarpentry.github.io/matlab-novice-inflammation/03-plotting.html); MathWorks docs: [2-D and 3-D plots](https://www.mathworks.com/help/matlab/learn_matlab/plots.html); function page [errorbar](https://www.mathworks.com/help/matlab/ref/errorbar.html) |
+| Wk 2: Distributions, density, contours | [Handbook 4.4: Density and contour plots](https://jakevdp.github.io/PythonDataScienceHandbook/04.04-density-and-contour-plots.html); [4.5: Histograms](https://jakevdp.github.io/PythonDataScienceHandbook/04.05-histograms-and-binnings.html); [4.14: Seaborn](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html) | [R4DS ch. 10: Exploratory data analysis](https://r4ds.hadley.nz/EDA.html); [ggplot2 book ch. 5: Statistical summaries](https://ggplot2-book.org/statistical-summaries.html) | Function pages [histogram](https://www.mathworks.com/help/matlab/ref/histogram.html), [contour](https://www.mathworks.com/help/matlab/ref/contour.html) and [ksdensity](https://www.mathworks.com/help/stats/ksdensity.html) (Statistics and Machine Learning Toolbox) |
+| Wk 3: Legends, colorbars, subplots, annotation, ticks, styles | [Handbook 4.6: Legends](https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html); [4.7: Colorbars](https://jakevdp.github.io/PythonDataScienceHandbook/04.07-customizing-colorbars.html); [4.8: Subplots](https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html); [4.9: Text and annotation](https://jakevdp.github.io/PythonDataScienceHandbook/04.09-text-and-annotation.html); [4.10: Ticks](https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html); [4.11: Stylesheets](https://jakevdp.github.io/PythonDataScienceHandbook/04.11-settings-and-stylesheets.html) | [R4DS ch. 11: Communication](https://r4ds.hadley.nz/communication.html); ggplot2 book: [ch. 8: Annotations](https://ggplot2-book.org/annotations.html), [ch. 9: Arranging plots](https://ggplot2-book.org/arranging-plots.html), [ch. 10: Position scales and axes](https://ggplot2-book.org/scales-position.html), [ch. 11: Colour scales and legends](https://ggplot2-book.org/scales-colour.html), [ch. 17: Themes](https://ggplot2-book.org/themes.html) | Function pages [legend](https://www.mathworks.com/help/matlab/ref/legend.html), [colorbar](https://www.mathworks.com/help/matlab/ref/colorbar.html), [tiledlayout](https://www.mathworks.com/help/matlab/ref/tiledlayout.html) (replaces subplot since R2019b) |
+| Optional: 3D plots | [Handbook 4.12: Three-dimensional plotting](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html) | None checked | The 3-D section of [2-D and 3-D plots](https://www.mathworks.com/help/matlab/learn_matlab/plots.html) |
+
+Skipped: handbook 4.13 (geographic data with Basemap). Basemap has been superseded by Cartopy, so it is not worth teaching.
+
+## Uploads
+
+{{< include ../_generated/uploads-module-4.md >}}

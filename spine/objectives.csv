@@ -1,0 +1,54 @@
+id,module,objective,handbook
+0.1,0,Run code from a script or notebook and interactively,Ch. 1
+0.2,0,Set the working directory and load a CSV,n/a
+0.3,0,Look up help for a function,1.1
+0.4,0,Read an error message and fix the cause,1.6
+1.1,1,"Create numeric, text and logical variables",n/a
+1.2,1,Store several values in one object and read items by position,n/a
+1.3,1,Repeat an action with a loop,n/a
+1.4,1,Branch with if/else,n/a
+1.5,1,Write a function with inputs and a returned value,n/a
+1.6,1,Apply one analysis to several files,n/a
+1.7,1,Check inputs and handle errors,n/a
+2.1,2,"Create arrays and matrices (values, ranges, zeros, random)",2.1-2.2
+2.2,2,"Index and slice rows, columns and blocks",2.2
+2.3,2,Check and change shape and type,2.1-2.2
+2.4,2,Apply element-wise math to a whole array,2.3
+2.5,2,"Aggregate over everything, rows or columns",2.4
+2.6,2,Combine arrays of different shapes (broadcasting),2.5
+2.7,2,Select elements with a logical mask,2.6
+2.8,2,Select by index list; sort and get the sort order,2.7-2.8
+3.1,3,Load a table; inspect column types and a summary,3.1
+3.2,3,Select rows and columns by name and by condition,3.2
+3.3,3,Add and transform columns,3.3
+3.4,3,"Detect, drop and fill missing values",3.4
+3.5,3,Stack tables and join them on a key,3.6-3.7
+3.6,3,Group and summarize,3.8
+3.7,3,Reshape between long and wide,3.9
+3.8,3,Clean and search text columns,3.10
+3.9,3,Parse dates and summarize by time period,3.11
+4.1,4,Line and scatter plots with labelled axes,4.1-4.2
+4.2,4,Error bars or an uncertainty band,4.3
+4.3,4,Histogram and density plot,4.4-4.5
+4.4,4,"Heat map or contour of a matrix, with colorbar","4.4, 4.7"
+4.5,4,"Legend, annotation and tick control","4.6, 4.9-4.10"
+4.6,4,Multi-panel figure,4.8
+4.7,4,Save a figure to a file,n/a
+5.1,5,"Explain features, labels, train/test and overfitting",5.1
+5.2,5,Fit a model and predict on new data,5.2
+5.3,5,Hold-out split with a fixed seed,5.3
+5.4,5,k-fold cross-validation,5.3
+5.5,5,Tune one hyperparameter on validation data,5.3
+5.6,5,Scale or encode features and chain steps into a pipeline,5.4
+6.1,6,Naive Bayes classifier,5.5
+6.2,6,Linear regression with fit metrics,5.6
+6.3,6,"Support vector machine, with kernel choice",5.7
+6.4,6,"Decision tree and random forest, with variable importance",5.8
+6.5,6,Compare models on the same split in one table,5.5-5.8
+7.1,7,PCA: variance explained and scores,5.9
+7.2,7,One manifold method (t-SNE or MDS),5.10
+7.3,7,"k-means, and choosing k",5.11
+7.4,7,Gaussian mixture model,5.12
+7.5,7,Kernel density estimate,5.13
+8.1,8,"Question, data, model and figure for a mini-project",5.14 as a model
+8.2,8,Present results and limits to the group,n/a

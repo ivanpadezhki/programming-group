@@ -1,0 +1,41 @@
+---
+title: "Module 1: Programming fundamentals"
+subtitle: "3 weeks"
+---
+
+**Handbook:** None; the handbook assumes Python. Prequel: A Whirlwind Tour of Python
+
+**Shared checkpoint:** Write a function and a loop: mean inflammation per day for all 12 files
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 1.1 | Create numeric, text and logical variables | n/a |
+| 1.2 | Store several values in one object and read items by position | n/a |
+| 1.3 | Repeat an action with a loop | n/a |
+| 1.4 | Branch with if/else | n/a |
+| 1.5 | Write a function with inputs and a returned value | n/a |
+| 1.6 | Apply one analysis to several files | n/a |
+| 1.7 | Check inputs and handle errors | n/a |
+
+## Resources
+
+The Software Carpentry lessons for Python, R and MATLAB teach loops, conditions and functions on the same inflammation dataset, so all three languages can share one checkpoint. For people who already program in another language, [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/) is a faster Python route; it is written as a prequel to the handbook.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Variables, types, operators | [Carpentries ep. 1: Python fundamentals](https://swcarpentry.github.io/python-novice-inflammation/01-intro.html); Whirlwind Tour: [variables](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html), [operators](https://jakevdp.github.io/WhirlwindTourOfPython/04-semantics-operators.html), [scalar types](https://jakevdp.github.io/WhirlwindTourOfPython/05-built-in-scalar-types.html) | [Carpentries R, ep. 13: Data types and structures](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures.html); [R4DS ch. 2: Workflow: basics](https://r4ds.hadley.nz/workflow-basics.html) | [Carpentries MATLAB, ep. 1: Working with variables](https://swcarpentry.github.io/matlab-novice-inflammation/01-intro.html) |
+| Wk 1: Collections | [Carpentries ep. 4: Lists](https://swcarpentry.github.io/python-novice-inflammation/04-lists.html); [Whirlwind Tour: built-in data structures](https://jakevdp.github.io/WhirlwindTourOfPython/06-built-in-data-structures.html) | [Advanced R ch. 3: Vectors](https://adv-r.hadley.nz/vectors-chap.html) | [Carpentries MATLAB, ep. 2: Arrays](https://swcarpentry.github.io/matlab-novice-inflammation/02-arrays.html) (overlaps with Module 2; arrays are MATLAB's basic type) |
+| Wk 2: Loops | [Carpentries ep. 5: Repeating actions with loops](https://swcarpentry.github.io/python-novice-inflammation/05-loop.html) | [Carpentries R, ep. 3: Analyzing multiple data sets](https://swcarpentry.github.io/r-novice-inflammation/03-loops-R.html); [ep. 15: Loops in R](https://swcarpentry.github.io/r-novice-inflammation/15-supp-loops-in-depth.html); [R4DS ch. 26: Iteration](https://r4ds.hadley.nz/iteration.html) | [Carpentries MATLAB, ep. 5: Repeating with loops](https://swcarpentry.github.io/matlab-novice-inflammation/05-loops.html) |
+| Wk 2: Conditionals | [Carpentries ep. 7: Making choices](https://swcarpentry.github.io/python-novice-inflammation/07-cond.html); [Whirlwind Tour: control flow](https://jakevdp.github.io/WhirlwindTourOfPython/07-control-flow-statements.html) | [Carpentries R, ep. 4: Making choices](https://swcarpentry.github.io/r-novice-inflammation/04-cond.html); [Advanced R ch. 5: Control flow](https://adv-r.hadley.nz/control-flow.html) | [Carpentries MATLAB, ep. 6: Making choices](https://swcarpentry.github.io/matlab-novice-inflammation/06-cond.html); MATLAB Onramp: Programming module |
+| Wk 3: Functions | [Carpentries ep. 8: Creating functions](https://swcarpentry.github.io/python-novice-inflammation/08-func.html); [Whirlwind Tour: defining functions](https://jakevdp.github.io/WhirlwindTourOfPython/08-defining-functions.html) | [Carpentries R, ep. 2: Creating functions](https://swcarpentry.github.io/r-novice-inflammation/02-func-R.html); [R4DS ch. 25: Functions](https://r4ds.hadley.nz/functions.html) | [Carpentries MATLAB, ep. 7: Creating functions](https://swcarpentry.github.io/matlab-novice-inflammation/07-func.html); [ep. 4: Writing MATLAB scripts](https://swcarpentry.github.io/matlab-novice-inflammation/04-scripts.html) |
+| Wk 3: Several files, errors, defensive code | [Carpentries ep. 6: Analyzing data from multiple files](https://swcarpentry.github.io/python-novice-inflammation/06-files.html); [ep. 9: Errors and exceptions](https://swcarpentry.github.io/python-novice-inflammation/09-errors.html); [ep. 10: Defensive programming](https://swcarpentry.github.io/python-novice-inflammation/10-defensive.html) | [Carpentries R, ep. 6: Best practices for writing R code](https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R.html); [Advanced R ch. 8: Conditions](https://adv-r.hadley.nz/conditions.html) | [Carpentries MATLAB, ep. 8: Defensive programming](https://swcarpentry.github.io/matlab-novice-inflammation/08-defensive.html) |
+
+The MATLAB lesson's schedule has no multi-file episode, and it is not checked whether ep. 5 covers looping over files.
+
+## Uploads
+
+{{< include ../_generated/uploads-module-1.md >}}

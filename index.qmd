@@ -1,0 +1,13 @@
+---
+title: "Programming group"
+---
+
+A group learning to program together over one academic year, from the basics to machine learning. Members work in Python, R or MATLAB and follow the same list of topics, so everyone is on the same week whatever the language.
+
+- [Spine](spine.qmd): the nine modules, with weeks and shared checkpoints.
+- Modules: each module page has its objectives, resources for all three languages and everyone's uploads. Use the Modules menu above.
+- [Progress](progress.qmd): how far each person is in each module.
+- [How to upload](how-to-upload.qmd): add your weekly notebook or script.
+- [Open questions](caveats.qmd): what the group still has to decide.
+
+The first resource list follows Jake VanderPlas's [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), with matching R and MATLAB resources for each topic.

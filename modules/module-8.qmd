@@ -1,0 +1,31 @@
+---
+title: "Module 8: Capstone"
+subtitle: "3 weeks"
+---
+
+**Handbook:** Ch. 5.14 (face detection pipeline) as a model
+
+**Shared checkpoint:** Each person's own mini-project, shown to the group
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 8.1 | Question, data, model and figure for a mini-project | 5.14 as a model |
+| 8.2 | Present results and limits to the group | n/a |
+
+## Resources
+
+Handbook [5.14: A face detection pipeline](https://jakevdp.github.io/PythonDataScienceHandbook/05.14-image-features.html) shows a complete pipeline, from image features to a classifier. MATLAB has HOG feature extraction built in (extractHOGFeatures, in the Computer Vision Toolbox) and MathWorks has a HOG-plus-SVM example for digits, but we found no ready-made face-detection tutorial for MATLAB and nothing comparable for R. So the capstone stays open: each person brings a small question from their own work, builds it in their language and shows it to the group. Suggested scope: one question, one dataset, one model, one figure.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Scope and plan | Handbook 5.14 as a model of a full pipeline | [TMwR ch. 9: Judging model effectiveness](https://www.tmwr.org/performance), for choosing metrics | Machine Learning Onramp workflow (Module 5) as a template |
+| Wk 2-3: Build and present | Weekly upload as usual | Weekly upload as usual | Weekly upload as usual |
+| Optional: deep learning | ISLP ch. 10 | ISLR2 ch. 10 | Deep Learning Onramp and Image Processing Onramp, via [MATLAB Academy](https://matlabacademy.mathworks.com/) |
+
+## Uploads
+
+{{< include ../_generated/uploads-module-8.md >}}

@@ -1,0 +1,71 @@
+---
+title: "How to upload"
+---
+
+Each person has a folder in the repository and uploads one notebook or script per week. The site reads a short header at the top of each file to see which objectives it covers. Nothing is run: your files are only read and shown.
+
+## 1. Create your folder (once)
+
+1. Open the repository on GitHub and go to **Add file → Create new file**.
+2. In the name box type `people/yourname/profile.txt`. Typing the slashes creates the folder. Use a nickname if you prefer, since the site is public.
+3. In the file, write:
+
+```
+name: Your name or nickname
+language: Python
+```
+
+4. Click **Commit changes**.
+
+## 2. Upload each week
+
+1. Open your folder and choose **Add file → Upload files**.
+2. Drag in your Jupyter notebook (`.ipynb`), R script (`.R`) or MATLAB script (`.m`).
+3. Click **Commit changes**. The site updates a few minutes later.
+
+Uploading a file with the same name replaces the earlier version.
+
+## 3. Add the header
+
+The header lists the objective IDs from the module page. Put it at the very top of the file.
+
+| Field | Meaning |
+| --- | --- |
+| `objectives` | IDs you have covered. These count as **Done** |
+| `attempted` | IDs you worked on but did not finish (optional) |
+| `week` | Week number within the module (optional) |
+| `title` | A short name shown on the site (optional) |
+
+**Notebook:** make the first cell a Raw cell (or a Markdown cell) containing:
+
+```
+---
+objectives: [2.1, 2.2, 2.3]
+attempted: [2.4]
+week: 1
+---
+```
+
+**R script:** start the file with
+
+```
+# ---
+# objectives: [3.1, 3.2]
+# week: 1
+# ---
+```
+
+**MATLAB script:** start the file with
+
+```
+% ---
+% objectives: [3.1, 3.2]
+% week: 1
+% ---
+```
+
+An objective is Done once any of your uploads lists it. A file without a header is still shown, but counts for nothing.
+
+## What gets published
+
+The site is public. Everything in your notebook is published, including its outputs. Upload code and small example data only: no personal data and no unpublished results. Clear notebook outputs that show such data before you upload.

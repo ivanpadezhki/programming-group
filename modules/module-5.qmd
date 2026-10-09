@@ -1,0 +1,38 @@
+---
+title: "Module 5: Machine learning foundations"
+subtitle: "4 weeks"
+---
+
+**Handbook:** Ch. 5.1-5.4
+
+**Shared checkpoint:** Split iris, fit a classifier, report test accuracy and 5-fold CV accuracy
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 5.1 | Explain features, labels, train/test and overfitting | 5.1 |
+| 5.2 | Fit a model and predict on new data | 5.2 |
+| 5.3 | Hold-out split with a fixed seed | 5.3 |
+| 5.4 | k-fold cross-validation | 5.3 |
+| 5.5 | Tune one hyperparameter on validation data | 5.3 |
+| 5.6 | Scale or encode features and chain steps into a pipeline | 5.4 |
+
+## Resources
+
+Follows handbook chapter 5.1 to 5.4. From here on, [An Introduction to Statistical Learning](https://www.statlearning.com/) (ISL) works as a shared theory text: the same chapters have labs in R ([2nd edition, free PDF](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html)) and in Python ([ISLP, free PDF](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)). The book's site lists no MATLAB edition, so MATLAB users read ISL for theory and use MathWorks material for code. Most MATLAB links below need the Statistics and Machine Learning Toolbox (see open questions).
+
+The checkpoint uses iris, which ships with R (), MATLAB () and scikit-learn ().
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: What is machine learning | [Handbook 5.1: What is machine learning?](https://jakevdp.github.io/PythonDataScienceHandbook/05.01-what-is-machine-learning.html); ISLP ch. 2 | ISLR2 ch. 2: Statistical learning (with lab) | Machine Learning Onramp, via [MATLAB Academy](https://matlabacademy.mathworks.com/): Overview of Machine Learning and Classification Workflow modules (free; covers classification only) |
+| Wk 2: A first model and the fit/predict workflow | [Handbook 5.2: Introducing Scikit-Learn](https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html) | [Tidy Modeling with R ch. 6: Fitting models with parsnip](https://www.tmwr.org/models); [ch. 7: A model workflow](https://www.tmwr.org/workflows) | Machine Learning Onramp: Import and Preprocess Data, Classification Models; the [Classification Learner app](https://www.mathworks.com/help/stats/classificationlearner-app.html) |
+| Wk 3: Validation and hyperparameters | [Handbook 5.3: Hyperparameters and model validation](https://jakevdp.github.io/PythonDataScienceHandbook/05.03-hyperparameters-and-model-validation.html); ISLP ch. 5 | [TMwR ch. 5: Spending our data](https://www.tmwr.org/splitting); [ch. 10: Resampling](https://www.tmwr.org/resampling); [ch. 12: Model tuning](https://www.tmwr.org/tuning); ISLR2 ch. 5: Resampling methods | Function page [cvpartition](https://www.mathworks.com/help/stats/cvpartition.html); docs: [Cross-validated classification model](https://www.mathworks.com/help/stats/classreg.learning.partition.classificationpartitionedmodel.html) |
+| Wk 4: Feature engineering | [Handbook 5.4: Feature engineering](https://jakevdp.github.io/PythonDataScienceHandbook/05.04-feature-engineering.html) | [TMwR ch. 8: Feature engineering with recipes](https://www.tmwr.org/recipes) | Machine Learning Onramp: Engineering Features module |
+
+## Uploads
+
+{{< include ../_generated/uploads-module-5.md >}}

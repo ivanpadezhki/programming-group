@@ -1,0 +1,17 @@
+---
+title: "Open questions and caveats"
+---
+
+| Question | What it affects | Default if nobody decides |
+| --- | --- | --- |
+| Which MATLAB licence and toolboxes does the group have? | Modules 5 to 7 use the Statistics and Machine Learning Toolbox. Onramp courses are free with a MathWorks account; other MathWorks Academy courses need an Online Training Suite subscription, which a university licence may include. | Free Onramps and base MATLAB for Modules 0 to 4; GNU Octave for the Carpentries lessons if there is no licence |
+| Which shared dataset for Module 3? | The checkpoint for five weeks | An anonymised export from one of the group's projects, with missing values, a second table to join and a date column |
+| Is 29 weeks the right pace for people new to programming? | Module lengths | Keep it and spend the three spare weeks where people stall |
+| Should the group add a block on classical statistics (tests, ANOVA, mixed models)? | The handbook has no such chapter, so nothing here covers it | Not included |
+
+Caveats:
+
+- The handbook dates from 2016, so run each notebook before assigning it. For example, , used in section 3.6, was removed in pandas 2.0.
+- The R and MATLAB rows match the handbook's topics, not its exact exercises. Only the three Carpentries lessons share exercises across all three languages.
+- Gaps found: no ready-made face-detection tutorial for R or MATLAB; no R counterpart checked for 3D plots; no direct counterpart in R or MATLAB for hierarchical indexing (3.5).
+- Link checking: we opened the handbook, the Whirlwind Tour, R4DS, Advanced R, the ggplot2 book, Tidy Modeling with R, the three Carpentries lessons, the ISL site and the MathWorks pages for pca and kmeans. The R manual on CRAN blocks automated access, and the other MathWorks pages came from search results or MathWorks' standard URL pattern, so click-test them before the group relies on them.

@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - spine.qmd
+    - how-to-upload.qmd
+    - progress.qmd
+    - caveats.qmd
+    - modules/*.qmd
+    - members/*.qmd
+
+website:
+  title: "Programming group"
+  repo-url: https://github.com/ivanpadezhki/programming-group
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: spine.qmd
+        text: Spine
+      - text: Modules
+        menu:
+          - text: "Module 0: Setup and workflow"
+            href: modules/module-0.qmd
+          - text: "Module 1: Programming fundamentals"
+            href: modules/module-1.qmd
+          - text: "Module 2: Arrays and matrices"
+            href: modules/module-2.qmd
+          - text: "Module 3: Tabular data"
+            href: modules/module-3.qmd
+          - text: "Module 4: Visualization"
+            href: modules/module-4.qmd
+          - text: "Module 5: Machine learning foundations"
+            href: modules/module-5.qmd
+          - text: "Module 6: Supervised models"
+            href: modules/module-6.qmd
+          - text: "Module 7: Unsupervised learning"
+            href: modules/module-7.qmd
+          - text: "Module 8: Capstone"
+            href: modules/module-8.qmd
+      - href: progress.qmd
+        text: Progress
+      - href: members/index.qmd
+        text: Members
+      - href: how-to-upload.qmd
+        text: How to upload
+      - href: caveats.qmd
+        text: Open questions
+    tools:
+      - icon: github
+        href: https://github.com/ivanpadezhki/programming-group
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  enabled: false

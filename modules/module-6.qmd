@@ -1,0 +1,37 @@
+---
+title: "Module 6: Supervised models"
+subtitle: "4 weeks"
+---
+
+**Handbook:** Ch. 5.5-5.8
+
+**Shared checkpoint:** Four models on the same split, compared in one table
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 6.1 | Naive Bayes classifier | 5.5 |
+| 6.2 | Linear regression with fit metrics | 5.6 |
+| 6.3 | Support vector machine, with kernel choice | 5.7 |
+| 6.4 | Decision tree and random forest, with variable importance | 5.8 |
+| 6.5 | Compare models on the same split in one table | 5.5-5.8 |
+
+## Resources
+
+Follows handbook 5.5 to 5.8, one model family per week. Checkpoint detail: naive Bayes, SVM and random forest on iris species, plus a linear regression of petal width on the other measurements, all in one comparison table. ISL ch. 3 also covers coefficient inference (standard errors, tests), which the handbook's regression section does not.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Naive Bayes | [Handbook 5.5: Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html); ISLP ch. 4 | ISLR2 ch. 4: Classification; the [discrim package](https://cran.r-project.org/package=discrim) for tidymodels | Function page [fitcnb](https://www.mathworks.com/help/stats/fitcnb.html) |
+| Wk 2: Linear regression | [Handbook 5.6: Linear regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html); ISLP ch. 3 | ISLR2 ch. 3: Linear regression; [TMwR ch. 3: A review of R modeling fundamentals](https://www.tmwr.org/base-r) | Function page [fitlm](https://www.mathworks.com/help/stats/fitlm.html) |
+| Wk 3: Support vector machines | [Handbook 5.7: Support vector machines](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html); ISLP ch. 9 | ISLR2 ch. 9: Support vector machines | Function page [fitcsvm](https://www.mathworks.com/help/stats/fitcsvm.html) |
+| Wk 4: Decision trees and random forests | [Handbook 5.8: Decision trees and random forests](https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html); ISLP ch. 8 | ISLR2 ch. 8: Tree-based methods | Function pages [fitctree](https://www.mathworks.com/help/stats/fitctree.html) and [TreeBagger](https://www.mathworks.com/help/stats/treebagger.html) (bagged trees with random predictor selection, i.e. a random forest) |
+
+In MATLAB, the [Classification Learner app](https://www.mathworks.com/help/stats/classificationlearner-app.html) trains naive Bayes, SVM and tree ensembles in one session, which makes it a quick way to check the coded results.
+
+## Uploads
+
+{{< include ../_generated/uploads-module-6.md >}}

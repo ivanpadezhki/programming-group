@@ -1,0 +1,10 @@
+id,title,weeks,anchor,checkpoint
+0,Setup and workflow,1,"Ch. 1 (help, debugging, timing)",Run a script that loads the inflammation CSV and prints its size
+1,Programming fundamentals,3,None; the handbook assumes Python. Prequel: A Whirlwind Tour of Python,Write a function and a loop: mean inflammation per day for all 12 files
+2,Arrays and matrices,3,Ch. 2,"Per-day and per-patient mean, max and min; one logical mask; one sort"
+3,Tabular data,5,Ch. 3,"On the agreed dataset: missing values per column, one join, group means"
+4,Visualization,3,Ch. 4,"Recreate one agreed figure: daily mean with min-max band, plus a heat map"
+5,Machine learning foundations,4,Ch. 5.1-5.4,"Split iris, fit a classifier, report test accuracy and 5-fold CV accuracy"
+6,Supervised models,4,Ch. 5.5-5.8,"Four models on the same split, compared in one table"
+7,Unsupervised learning,3,Ch. 5.9-5.13,PCA variance explained on iris; k-means with k=3 against species
+8,Capstone,3,Ch. 5.14 (face detection pipeline) as a model,"Each person's own mini-project, shown to the group"

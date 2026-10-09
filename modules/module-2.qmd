@@ -1,0 +1,40 @@
+---
+title: "Module 2: Arrays and matrices"
+subtitle: "3 weeks"
+---
+
+**Handbook:** Ch. 2
+
+**Shared checkpoint:** Per-day and per-patient mean, max and min; one logical mask; one sort
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 2.1 | Create arrays and matrices (values, ranges, zeros, random) | 2.1-2.2 |
+| 2.2 | Index and slice rows, columns and blocks | 2.2 |
+| 2.3 | Check and change shape and type | 2.1-2.2 |
+| 2.4 | Apply element-wise math to a whole array | 2.3 |
+| 2.5 | Aggregate over everything, rows or columns | 2.4 |
+| 2.6 | Combine arrays of different shapes (broadcasting) | 2.5 |
+| 2.7 | Select elements with a logical mask | 2.6 |
+| 2.8 | Select by index list; sort and get the sort order | 2.7-2.8 |
+
+## Resources
+
+Follows handbook chapter 2 (NumPy). Two differences to tell the group up front: Python counts from 0 while R and MATLAB count from 1, and what NumPy calls broadcasting is called recycling in R (close to NumPy's rules, but not the same) and implicit expansion in MATLAB.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Data types, array basics, indexing | [Handbook 2.1: Data types](https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html); [2.2: Basics of NumPy arrays](https://jakevdp.github.io/PythonDataScienceHandbook/02.02-the-basics-of-numpy-arrays.html); [Carpentries ep. 2: Analyzing patient data](https://swcarpentry.github.io/python-novice-inflammation/02-numpy.html) | [An Introduction to R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html), ch. 5: Arrays and matrices; [Advanced R ch. 3: Vectors](https://adv-r.hadley.nz/vectors-chap.html) and [ch. 4: Subsetting](https://adv-r.hadley.nz/subsetting.html); [Carpentries R, ep. 1](https://swcarpentry.github.io/r-novice-inflammation/01-starting-with-data.html) and [ep. 10: Addressing data](https://swcarpentry.github.io/r-novice-inflammation/10-supp-addressing-data.html) | [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html): Vectors and Matrices, then Indexing into and Modifying Arrays; MathWorks docs: [Array indexing](https://www.mathworks.com/help/matlab/math/array-indexing.html) |
+| Wk 2: Vectorized math, aggregations, broadcasting | [Handbook 2.3: Universal functions](https://jakevdp.github.io/PythonDataScienceHandbook/02.03-computation-on-arrays-ufuncs.html); [2.4: Aggregations](https://jakevdp.github.io/PythonDataScienceHandbook/02.04-computation-on-arrays-aggregates.html); [2.5: Broadcasting](https://jakevdp.github.io/PythonDataScienceHandbook/02.05-computation-on-arrays-broadcasting.html) | An Introduction to R, ch. 2: Simple manipulations; numbers and vectors; [R4DS ch. 13: Numbers](https://r4ds.hadley.nz/numbers.html) | MATLAB Onramp: Array Calculations; MathWorks docs: [Compatible array sizes for basic operations](https://www.mathworks.com/help/matlab/matlab_prog/compatible-array-sizes-for-basic-operations.html) (implicit expansion) |
+| Wk 3: Masks, fancy indexing, sorting | [Handbook 2.6: Comparisons and masks](https://jakevdp.github.io/PythonDataScienceHandbook/02.06-boolean-arrays-and-masks.html); [2.7: Fancy indexing](https://jakevdp.github.io/PythonDataScienceHandbook/02.07-fancy-indexing.html); [2.8: Sorting](https://jakevdp.github.io/PythonDataScienceHandbook/02.08-sorting.html) | [R4DS ch. 12: Logical vectors](https://r4ds.hadley.nz/logicals.html); [Advanced R ch. 4: Subsetting](https://adv-r.hadley.nz/subsetting.html) (logical and integer subsetting) | MATLAB Onramp: Logical Arrays; function pages [find](https://www.mathworks.com/help/matlab/ref/find.html) and [sort](https://www.mathworks.com/help/matlab/ref/sort.html) |
+| Optional: Structured data | [Handbook 2.9: Structured arrays](https://jakevdp.github.io/PythonDataScienceHandbook/02.09-structured-data-numpy.html) (leads into Module 3) | Lists and data frames in [Advanced R ch. 3](https://adv-r.hadley.nz/vectors-chap.html) | MathWorks docs: [Tables](https://www.mathworks.com/help/matlab/tables.html) |
+
+For people switching between Python and MATLAB: [NumPy for MATLAB users](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html) and the [MATLAB-Python-Julia cheatsheet](https://cheatsheets.quantecon.org/). For R and Python, [R to Python code translations](https://www.datanovia.com/blog/r-vs-python-code-translations) is a side-by-side cheatsheet (seen in search results, not opened).
+
+## Uploads
+
+{{< include ../_generated/uploads-module-2.md >}}

@@ -1,0 +1,42 @@
+---
+title: "Module 3: Tabular data"
+subtitle: "5 weeks"
+---
+
+**Handbook:** Ch. 3
+
+**Shared checkpoint:** On the agreed dataset: missing values per column, one join, group means
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 3.1 | Load a table; inspect column types and a summary | 3.1 |
+| 3.2 | Select rows and columns by name and by condition | 3.2 |
+| 3.3 | Add and transform columns | 3.3 |
+| 3.4 | Detect, drop and fill missing values | 3.4 |
+| 3.5 | Stack tables and join them on a key | 3.6-3.7 |
+| 3.6 | Group and summarize | 3.8 |
+| 3.7 | Reshape between long and wide | 3.9 |
+| 3.8 | Clean and search text columns | 3.10 |
+| 3.9 | Parse dates and summarize by time period | 3.11 |
+
+## Resources
+
+Follows handbook chapter 3 (pandas). This is where the three languages differ most: R works through the tidyverse, MATLAB through tables and timetables, so the group will compare ideas more than syntax. Hierarchical row indexes (3.5) have no direct counterpart in R data frames or MATLAB tables; treat it as optional.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: Data frames: objects, selection, operations | [Handbook 3.1: Pandas objects](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html); [3.2: Indexing and selection](https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html); [3.3: Operating on data](https://jakevdp.github.io/PythonDataScienceHandbook/03.03-operations-in-pandas.html) | [R4DS ch. 3: Data transformation](https://r4ds.hadley.nz/data-transform.html); data frames in [Advanced R ch. 3](https://adv-r.hadley.nz/vectors-chap.html) | MathWorks docs: [Tables](https://www.mathworks.com/help/matlab/tables.html); function page [readtable](https://www.mathworks.com/help/matlab/ref/readtable.html) |
+| Wk 2: Missing data, combining datasets | [Handbook 3.4: Missing data](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html); [3.6: Concat and append](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html); [3.7: Merge and join](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html) | [R4DS ch. 18: Missing values](https://r4ds.hadley.nz/missing-values.html); [ch. 19: Joins](https://r4ds.hadley.nz/joins.html) | Function pages [ismissing](https://www.mathworks.com/help/matlab/ref/ismissing.html), [rmmissing](https://www.mathworks.com/help/matlab/ref/rmmissing.html), [fillmissing](https://www.mathworks.com/help/matlab/ref/fillmissing.html) and [join](https://www.mathworks.com/help/matlab/ref/table.join.html) (innerjoin and outerjoin are listed on the Tables page) |
+| Wk 3: Grouping, aggregation, pivoting | [Handbook 3.8: Aggregation and grouping](https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html); [3.9: Pivot tables](https://jakevdp.github.io/PythonDataScienceHandbook/03.09-pivot-tables.html); optional [3.5: Hierarchical indexing](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html) | [R4DS ch. 3](https://r4ds.hadley.nz/data-transform.html) (groups and summaries); [R4DS ch. 5: Data tidying](https://r4ds.hadley.nz/data-tidy.html) (pivoting) | [groupsummary](https://www.mathworks.com/help/matlab/ref/groupsummary.html) (accepts several grouping variables); stack and unstack, listed on the [Tables](https://www.mathworks.com/help/matlab/tables.html) page |
+| Wk 4: Strings and time series | [Handbook 3.10: Vectorized string operations](https://jakevdp.github.io/PythonDataScienceHandbook/03.10-working-with-strings.html); [3.11: Time series](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html) | [R4DS ch. 14: Strings](https://r4ds.hadley.nz/strings.html); [ch. 15: Regular expressions](https://r4ds.hadley.nz/regexps.html); [ch. 17: Dates and times](https://r4ds.hadley.nz/datetimes.html) | MathWorks docs: [Characters and strings](https://www.mathworks.com/help/matlab/characters-and-strings.html); function pages [datetime](https://www.mathworks.com/help/matlab/ref/datetime.html) and [timetable](https://www.mathworks.com/help/matlab/ref/timetable.html) |
+| Wk 5: Consolidation: load, clean and summarize the agreed dataset | [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) (the handbook does not cover reading files); optional [Handbook 3.12: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html) | [R4DS ch. 7: Data import](https://r4ds.hadley.nz/data-import.html); [Carpentries R, ep. 11: Reading and writing CSV files](https://swcarpentry.github.io/r-novice-inflammation/11-supp-read-write-csv.html) | MATLAB Onramp: Importing Data module |
+
+The shared dataset for this module is still undecided; see [Open questions](../caveats.qmd).
+
+## Uploads
+
+{{< include ../_generated/uploads-module-3.md >}}

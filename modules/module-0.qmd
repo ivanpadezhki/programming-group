@@ -1,0 +1,35 @@
+---
+title: "Module 0: Setup and workflow"
+subtitle: "1 week"
+---
+
+**Handbook:** Ch. 1 (help, debugging, timing)
+
+**Shared checkpoint:** Run a script that loads the inflammation CSV and prints its size
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 0.1 | Run code from a script or notebook and interactively | Ch. 1 |
+| 0.2 | Set the working directory and load a CSV | n/a |
+| 0.3 | Look up help for a function | 1.1 |
+| 0.4 | Read an error message and fix the cause | 1.6 |
+
+## Resources
+
+Get each person to a working environment and a loaded CSV. Handbook chapter 1 is mostly IPython shell features (magic commands, shortcuts, history) with no direct counterpart, so only help, debugging and timing carry over.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Install and launch | [Carpentries Python setup](https://swcarpentry.github.io/python-novice-inflammation/) (Jupyter Notebook is option A) | [Carpentries R setup](https://swcarpentry.github.io/r-novice-inflammation/) (R plus RStudio Desktop) | [Carpentries MATLAB setup](https://swcarpentry.github.io/matlab-novice-inflammation/); [GNU Octave](https://www.gnu.org/software/octave/) also works for these lessons |
+| Editor, folders, working directory | Same setup page (data and code folders) | [Carpentries R, ep. 9: Introduction to RStudio](https://swcarpentry.github.io/r-novice-inflammation/09-supp-intro-rstudio.html); [R4DS ch. 6: Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html) | [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html): Desktop and Editor module (free, about 2 hours, runs in the browser) |
+| Getting help | [Handbook 1.1: Help and documentation](https://jakevdp.github.io/PythonDataScienceHandbook/01.01-help-and-documentation.html) | [R4DS ch. 8: Workflow: getting help](https://r4ds.hadley.nz/workflow-help.html) | MATLAB Onramp: Obtaining Help module |
+| Errors and debugging | [Handbook 1.6: Errors and debugging](https://jakevdp.github.io/PythonDataScienceHandbook/01.06-errors-and-debugging.html) | [Advanced R ch. 22: Debugging](https://adv-r.hadley.nz/debugging.html) | MATLAB Onramp: Debug MATLAB Code, inside the Desktop and Editor module |
+| Timing code (optional) | [Handbook 1.7: Profiling and timing](https://jakevdp.github.io/PythonDataScienceHandbook/01.07-timing-and-profiling.html) | [Advanced R ch. 23: Measuring performance](https://adv-r.hadley.nz/perf-measure.html) | [tic and toc](https://www.mathworks.com/help/matlab/ref/tic.html) |
+
+## Uploads
+
+{{< include ../_generated/uploads-module-0.md >}}

@@ -1,0 +1,34 @@
+---
+title: "Module 7: Unsupervised learning"
+subtitle: "3 weeks"
+---
+
+**Handbook:** Ch. 5.9-5.13
+
+**Shared checkpoint:** PCA variance explained on iris; k-means with k=3 against species
+
+## Objectives
+
+An upload counts as comparable when it covers these objectives. List the IDs in the upload header (see [How to upload](../how-to-upload.qmd)).
+
+| ID | Objective | Handbook section |
+| --- | --- | --- |
+| 7.1 | PCA: variance explained and scores | 5.9 |
+| 7.2 | One manifold method (t-SNE or MDS) | 5.10 |
+| 7.3 | k-means, and choosing k | 5.11 |
+| 7.4 | Gaussian mixture model | 5.12 |
+| 7.5 | Kernel density estimate | 5.13 |
+
+## Resources
+
+Follows handbook 5.9 to 5.13. Cluster labels are arbitrary between runs and languages, so the checkpoint compares a cross-tab of clusters against species, not label numbers.
+
+| Step | Python | R | MATLAB |
+| --- | --- | --- | --- |
+| Wk 1: PCA and manifold learning | [Handbook 5.9: PCA](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html); [5.10: Manifold learning](https://jakevdp.github.io/PythonDataScienceHandbook/05.10-manifold-learning.html); ISLP ch. 12 | ISLR2 ch. 12: Unsupervised learning (PCA lab); [TMwR ch. 16: Dimensionality reduction](https://www.tmwr.org/dimensionality) (PCA, UMAP); the [Rtsne package](https://cran.r-project.org/package=Rtsne) for t-SNE | MathWorks docs: [Principal component analysis](https://www.mathworks.com/help/stats/principal-component-analysis-pca.html); function pages [pca](https://www.mathworks.com/help/stats/pca.html), [tsne](https://www.mathworks.com/help/stats/tsne.html), [mdscale](https://www.mathworks.com/help/stats/mdscale.html) |
+| Wk 2: k-means and Gaussian mixtures | [Handbook 5.11: k-means](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html); [5.12: Gaussian mixture models](https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html) | ISLR2 ch. 12 (k-means lab); base R ; the [mclust package](https://cran.r-project.org/package=mclust) for mixture models | MathWorks docs: [Introduction to k-means clustering](https://www.mathworks.com/help/stats/k-means-clustering.html); function pages [kmeans](https://www.mathworks.com/help/stats/kmeans.html) and [fitgmdist](https://www.mathworks.com/help/stats/fitgmdist.html) |
+| Wk 3: Kernel density estimation, consolidation | [Handbook 5.13: Kernel density estimation](https://jakevdp.github.io/PythonDataScienceHandbook/05.13-kernel-density-estimation.html) | Base R ; [ggplot2 book ch. 5: Statistical summaries](https://ggplot2-book.org/statistical-summaries.html) | Function page [ksdensity](https://www.mathworks.com/help/stats/ksdensity.html) |
+
+## Uploads
+
+{{< include ../_generated/uploads-module-7.md >}}
